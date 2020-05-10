@@ -1,0 +1,26 @@
+{
+  "name": "oneble",
+  "version": "1.0.0",
+  "description": "蓝牙跨端统一接口",
+  "main": "lib/index.js",
+  "typings": "typings",
+  "scripts": {
+    "build": "rm -rf lib typings && node node_modules/rollup/dist/bin/rollup -c && tsc",
+    "dev": "rm -rf lib typings && ENV=dev node node_modules/rollup/dist/bin/rollup -c && tsc"
+  },
+  "keywords": [
+    "ble",
+    "bluetooth"
+  ],
+  "author": "BBBOND",
+  "license": "ISC",
+  "dependencies": {
+    "universal-env": "^3.2.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.8.2",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.8.3"
+  }
+}

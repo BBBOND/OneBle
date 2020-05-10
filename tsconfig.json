@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "ES2015",
+        "removeComments": false,
+        "target": "es5",
+        "outDir": "lib",
+        "declaration": true,
+        "declarationDir": "typings",
+        "downlevelIteration": true,
+        "lib":["es2017", "dom"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
