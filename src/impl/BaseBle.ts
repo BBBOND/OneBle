@@ -13,27 +13,27 @@ export default class BaseBle {
         this.notImplement();
     }
 
-    onBluetoothAdapterStateChange() {
+    onBluetoothAdapterStateChange(callback: Function) {
         this.notImplement();
     }
 
-    offBluetoothAdapterStateChange() {
+    offBluetoothAdapterStateChange(callback: Function) {
         this.notImplement();
     }
 
-    onBluetoothDeviceFound() {
+    onBluetoothDeviceFound(callback: Function) {
         this.notImplement();
     }
 
-    offBluetoothDeviceFound() {
+    offBluetoothDeviceFound(callback: Function) {
         this.notImplement();
     }
 
-    onBLEConnectionStateChange() {
+    onBLEConnectionStateChange(callback: Function) {
         this.notImplement();
     }
 
-    offBLEConnectionStateChange() {
+    offBLEConnectionStateChange(callback: Function) {
         this.notImplement();
     }
 
